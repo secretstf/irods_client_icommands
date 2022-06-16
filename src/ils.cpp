@@ -18,7 +18,7 @@ void usage();
 
 int
 main( int argc, char **argv ) {
-
+    std::cout << "This worked!";
     signal( SIGPIPE, SIG_IGN );
 
     int status;

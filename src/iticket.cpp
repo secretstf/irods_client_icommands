@@ -491,6 +491,13 @@ doTicketOp( const char *arg1, const char *arg2, const char *arg3,
     }
 
     const int status = rcTicketAdmin( Conn, &ticketAdminInp );
+    std::cout << "Arguments:" << "\n";
+    std::cout << ticketAdminInp.arg1 << "\n";
+    std::cout << ticketAdminInp.arg2 << "\n";
+    std::cout << ticketAdminInp.arg3 << "\n";
+    std::cout << ticketAdminInp.arg4 << "\n";
+    std::cout << ticketAdminInp.arg5 << "\n";
+    std::cout << ticketAdminInp.arg6 << "\n";
     lastCommandStatus = status;
 
     free( ticketAdminInp.arg1 );
