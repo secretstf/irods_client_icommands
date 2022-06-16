@@ -184,6 +184,7 @@ set(
   iticket
   itouch
   itree
+  itest
   itrim
   iunreg
   iuserinfo
