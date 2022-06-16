@@ -61,7 +61,7 @@ main(int argc, char **argv){
         exit(3);
     }
 
-    irods::ticket::administration.creatReadTicket(conn, "/tempZone/home/public", "testTicket");
+    irods::ticket::administration::creatReadTicket(conn, "/tempZone/home/public", "testTicket");
 
     exit(0);
 }
